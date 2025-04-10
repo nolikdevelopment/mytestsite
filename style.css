@@ -1,0 +1,21 @@
+h1 {
+    font-style: italic;
+
+}
+p {
+    text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    text-indent: 5px;
+}
+a{
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+
+}
+a:hover {
+	color:gold;
+}
+
+
