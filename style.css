@@ -38,3 +38,26 @@ footer {
 footer:hover {
     color: white;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.right {
+    width: 20px; /* Ширина бордера */
+    height: 100vh; /* Высота на весь экран */
+    background-color: gray; /* Цвет бордера */
+    top: 0; /* Начало с верхней части экрана */
+    left: 0%; /* Центрирование бордера по горизонтали */
+}
+.left {
+    width: 20px; /* Ширина бордера */
+    height: 100vh; /* Высота на весь экран */
+    background-color: gray; /* Цвет бордера */
+    top: 0; /* Начало с верхней части экрана */
+    left: 0%; /* Центрирование бордера по горизонтали */
+    right: 10
+    +px;
+}
+
+
