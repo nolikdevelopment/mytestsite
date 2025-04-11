@@ -15,11 +15,11 @@ a{
 
 }
 a:hover {
-	color: gold;
+	color: white;
 }
 .center {
     text-align: center;
-    border: 3px, gray, solid;
+    border: 7px, gray, solid;
     background-color: gray;
     background-position: bottom;
 }
@@ -30,9 +30,11 @@ footer {
     right: 0px;
     left: 0px;
     height: 20px;
-    border: 1px, gray, solid;
+    border: 4px, gray, solid;
     background-position: bottom;
     background-color: gray;
     color: white;
-
+}
+footer:hover {
+    color: white;
 }
