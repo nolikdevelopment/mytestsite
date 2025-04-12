@@ -49,15 +49,23 @@ body, html {
     height: 110vh; /* Высота на весь экран */
     background-color: gray; /* Цвет бордера */
     top: 0; /* Начало с верхней части экрана */
-    left: 0; /* Центрирование бордера по горизонтали */
+    left: 0%; /* Центрирование бордера по горизонтали */
 }
 .text {
-   width: 10;
-   height: 10;
-   background-color: gray;
-   border-radius: 15;
-   color: white;
+    text-align: center;
+    background-color: gray;
+    color: white;
 }
+.left {
+    position: absolute;
+    top: 0; /* Начинается с верхней части элемента */
+    right: 0; /* Позиционируется справа */
+    width: 40px; /* Толщина границы */
+    height: 100%; /* Высота элемента */
+    background-color: gray; /* Цвет границы */
+
+}
+
 
 
 
