@@ -8,7 +8,7 @@ p {
     font-size: 19px;
     text-indent: 5px;
 }
-a{
+a {
     color: white;
     text-decoration: none;
     text-align: center;
@@ -38,26 +38,26 @@ footer {
 footer:hover {
     color: white;
 }
-body {
+body, html {
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    height: 100%;
 }
 
 .right {
-    width: 20px; /* Ширина бордера */
-    height: 100vh; /* Высота на весь экран */
+    width: 40px; /* Ширина бордера */
+    height: 110vh; /* Высота на весь экран */
     background-color: gray; /* Цвет бордера */
     top: 0; /* Начало с верхней части экрана */
-    left: 0%; /* Центрирование бордера по горизонтали */
+    left: 0; /* Центрирование бордера по горизонтали */
 }
-.left {
-    width: 20px; /* Ширина бордера */
-    height: 100vh; /* Высота на весь экран */
-    background-color: gray; /* Цвет бордера */
-    top: 0; /* Начало с верхней части экрана */
-    left: 0%; /* Центрирование бордера по горизонтали */
-    right: 10
-    +px;
+.text {
+   width: 10;
+   height: 10;
+   background-color: gray;
+   border-radius: 15;
+   color: white;
 }
+
 
 
