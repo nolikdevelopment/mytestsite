@@ -15,11 +15,11 @@ a {
 
 }
 a:hover {
-	color: white;
+	color: gold;
 }
 .center {
     text-align: center;
-    border: 7px, gray, solid;
+    border: 5px, gray, solid;
     background-color: gray;
     background-position: bottom;
 }
@@ -45,7 +45,7 @@ body, html {
 }
 
 .right {
-    width: 40px; /* Ширина бордера */
+    width: 26px; /* Ширина бордера */
     height: 110vh; /* Высота на весь экран */
     background-color: gray; /* Цвет бордера */
     top: 0; /* Начало с верхней части экрана */
@@ -60,7 +60,14 @@ body, html {
     position: absolute;
     top: 0; /* Начинается с верхней части элемента */
     right: 0; /* Позиционируется справа */
-    width: 40px; /* Толщина границы */
+    width: 26px; /* Толщина границы */
     height: 100%; /* Высота элемента */
     background-color: gray; /* Цвет границы */
+}
+.text:hover {
+    color: gold;
+}
+footer:hover{
+    color: gold;
+
 }
